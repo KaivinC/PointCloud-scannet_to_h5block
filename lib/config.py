@@ -4,7 +4,7 @@ from easydict import EasyDict
 CONF = EasyDict()
 
 # BASE PATH
-# the dir of my preprocessing: /home/scanNet/test/scannet2block/Pointcloud-npy2ply/preprocessing
+# the dir of my preprocessing: /home/scanNet/test/scannet2block/Pointcloud-npy2ply/PointCloud-scannet_to_h5block
 CONF.ROOT = "/home/scanNet/test/scannet2block/Pointcloud-npy2ply" # TODO change this 
 CONF.DATA_TYPE = "test"   #processing data is train data or test data # TODO change this
 CONF.SCANNET_ROOT = "/home/scanNet" # Where scannet is located # TODO change this
