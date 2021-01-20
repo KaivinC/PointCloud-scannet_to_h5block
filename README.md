@@ -6,5 +6,5 @@ After modifying lib/config.py, run the following code
 
 ``` bash
 
-python3 preprocessing/collect_scannet_scenes.py
+python3 collect_scannet_scenes.py
 ```
